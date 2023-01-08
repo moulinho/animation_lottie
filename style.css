@@ -1,0 +1,89 @@
+body {
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+}
+
+.testLottie {
+  margin: 0px auto;
+  width: 100%;
+}
+form {
+  position: relative;
+  width: 200px;
+  background: rgba(241, 242, 235);
+  display: inline-block;
+  margin: 30vh auto;
+  padding: 50px;
+  border: none;
+  border-radius: 5%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  text-align: center;
+}
+
+label {
+  padding: 20px 10px;
+
+  font-size: 1em;
+  color: #525252;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+input {
+  display: block;
+  width: 200px;
+  border: none;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+
+input:focus {
+  outline: 0.5px solid lightcoral;
+  transition: 0.5s;
+}
+
+button {
+  font-size: 1em;
+  font-weight: 700;
+  width: 220px;
+  border: none;
+  border-radius: 2px;
+  background: #592941;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover {
+  cursor: pointer;
+}

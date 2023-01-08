@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link href="./node_modules/aos/dist/aos.css" rel="stylesheet" />
+    <!-- <script src="./node_modules/bodymovin/build/player/bodymovin.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.1/lottie.min.js"></script>
+
+  </head>
+  <body>
+    <div class="card">
+      <div class="box a" data-aos="fade-up">
+        <form action="" id="formUser">
+          <div id="testLottie" class="testLottie"></div>
+          <label for="username">username </label>
+          <input type="text" name="username" id="username" /> <br />
+          <label for="password">password </label>
+          <input type="password" name="password" id="password" /> <br />
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
